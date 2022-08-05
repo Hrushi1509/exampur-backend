@@ -21,5 +21,5 @@ const usersRoute = require('./routes/users')
 app.use('/users', usersRoute)
 
 
-app.listen(5000)
+app.listen(process.env.PORT || 5000)
 // app.listen(process.env.APP_PORT)
